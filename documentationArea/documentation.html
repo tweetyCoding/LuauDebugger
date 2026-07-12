@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Luau Review Documentation</title>
+
+<link rel="stylesheet" href="C:\Users\dying\Documents\Coding Projects\DebuggerWebsite\Style.css">
+<link rel="stylesheet" href="Docstyle.css">
+
+</head>
+
+
+<body>
+
+
+<nav>
+
+<div class="logo">
+Luau Review
+</div>
+
+
+<div>
+
+<a href="file:///C:/Users/dying/Documents/Coding%20Projects/DebuggerWebsite/index.html">Home</a>
+<a href="file:///C:/Users/dying/Documents/Coding%20Projects/DebuggerWebsite/documentationArea/documentation.html#report">Documentation</a>
+<a href="https://github.com/" target="_blank" rel="noopener noreferrer" >GitHub</a>
+
+</div>
+
+</nav>
+
+
+
+
+
+<div class="docs-container">
+
+
+
+<aside class="sidebar">
+
+
+<h3>
+Documentation
+</h3>
+
+
+<a href="#start">
+Getting Started
+</a>
+
+
+<a href="#analysis">
+How Analysis Works
+</a>
+
+
+<a href="#checks">
+Supported Checks
+</a>
+
+
+<a href="#rules">
+Luau Rules
+</a>
+
+
+<a href="#report">
+Report System
+</a>
+
+
+<a href="#examples">
+Examples
+</a>
+
+
+</aside>
+
+
+
+
+
+
+
+<main class="docs-content">
+
+
+
+<h1>
+Luau Review Documentation
+</h1>
+
+
+<p>
+Learn how Luau Review analyzes Roblox scripts and helps improve your code.
+</p>
+
+
+
+
+
+<section id="start">
+
+
+<h2>
+Getting Started
+</h2>
+
+
+<p>
+
+1. Paste your Luau code into the editor.
+
+<br>
+
+2. Click Analyze Code.
+
+<br>
+
+3. Review detected issues.
+
+<br>
+
+4. Apply the recommended improvements.
+
+</p>
+
+
+</section>
+
+
+
+
+
+
+
+
+<section id="analysis">
+
+
+<h2>
+How Analysis Works
+</h2>
+
+
+<div class="doc-card">
+
+
+<h3>
+Syntax Analysis
+</h3>
+
+
+<p>
+Checks if your script contains errors that could stop it from running.
+</p>
+
+
+</div>
+
+
+
+<div class="doc-card">
+
+
+<h3>
+Performance Analysis
+</h3>
+
+
+<p>
+Finds inefficient code, expensive loops, and possible lag sources.
+</p>
+
+
+</div>
+
+
+
+
+
+<div class="doc-card">
+
+
+<h3>
+Security Analysis
+</h3>
+
+
+<p>
+Checks RemoteEvents, RemoteFunctions, and unsafe client communication.
+</p>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+<section id="checks">
+
+
+<h2>
+Supported Checks
+</h2>
+
+
+
+<h3>
+Performance
+</h3>
+
+
+<ul>
+
+<li>Infinite loops</li>
+
+<li>Heavy RenderStepped usage</li>
+
+<li>Repeated object searching</li>
+
+<li>Large scripts</li>
+
+</ul>
+
+
+
+
+
+<h3>
+Memory</h3>
+
+
+<ul>
+
+<li>Unused connections</li>
+
+<li>Possible memory leaks</li>
+
+<li>Uncleaned objects</li>
+
+</ul>
+
+
+
+
+
+
+<h3>
+Security
+</h3>
+
+
+<ul>
+
+<li>RemoteEvent validation</li>
+
+<li>Unsafe client trust</li>
+
+<li>Missing argument checks</li>
+
+</ul>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+<section id="rules">
+
+
+<h2>
+Luau Best Practices
+</h2>
+
+
+
+<h3>
+Use task instead of old functions
+</h3>
+
+
+<div class="code">
+
+Bad:
+
+<br>
+
+wait(1)
+
+<br><br>
+
+Good:
+
+<br>
+
+task.wait(1)
+
+</div>
+
+
+
+
+
+
+<h3>
+Enable Strict Mode
+</h3>
+
+
+<div class="code">
+
+--!strict
+
+</div>
+
+
+
+<p>
+
+Strict mode improves type checking and catches errors earlier.
+
+</p>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<section id="report">
+
+
+<h2>
+Report System
+</h2>
+
+
+<p>
+
+Your score is calculated from multiple categories:
+
+</p>
+
+
+<div class="score-box">
+
+
+Performance: 95%
+
+<br>
+
+Security: 100%
+
+<br>
+
+Readability: 90%
+
+<br>
+
+Maintainability: 85%
+
+<br>
+
+Strict Compatibility: 100%
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+<section id="examples">
+
+
+<h2>
+Examples
+</h2>
+
+
+<p>
+
+Try analyzing:
+
+</p>
+
+
+<ul>
+
+<li>Beginner scripts</li>
+
+<li>RemoteEvent systems</li>
+
+<li>DataStore systems</li>
+
+<li>Large ModuleScripts</li>
+
+</ul>
+
+
+</section>
+
+
+
+
+
+
+</main>
+
+
+</div>
+
+
+
+
+
+
+
+<footer>
+
+Luau Review • Built for Roblox Developers
+
+</footer>
+
+
+
+</body>
+
+</html>

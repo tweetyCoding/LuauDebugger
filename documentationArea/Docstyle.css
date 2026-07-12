@@ -1,0 +1,571 @@
+/* Documentation Layout */
+
+.docs-container {
+
+    display: flex;
+
+    width: 90%;
+
+    max-width: 1300px;
+
+    margin: 40px auto;
+
+    gap: 35px;
+
+}
+
+
+
+/* Sidebar */
+
+.sidebar {
+
+    width: 260px;
+
+    height: fit-content;
+
+    position: sticky;
+
+    top: 20px;
+
+
+    background: #161B22;
+
+    border: 1px solid #30363d;
+
+    border-radius: 12px;
+
+    padding: 25px;
+
+}
+
+
+
+.sidebar h3 {
+
+    font-size: 20px;
+
+    margin-bottom: 20px;
+
+    color: #3B82F6;
+
+}
+
+
+
+.sidebar a {
+
+    display: block;
+
+    color: #E6EDF3;
+
+    text-decoration: none;
+
+    padding: 12px;
+
+    margin-bottom: 5px;
+
+    border-radius: 8px;
+
+    transition: 0.2s;
+
+}
+
+
+
+.sidebar a:hover {
+
+    background: #21262d;
+
+    color: #3B82F6;
+
+}
+
+
+
+
+
+/* Documentation Content */
+
+
+.docs-content {
+
+    flex: 1;
+
+    min-width: 0;
+
+}
+
+
+
+.docs-content h1 {
+
+    font-size: 42px;
+
+    margin-bottom: 15px;
+
+}
+
+
+
+.docs-content > p {
+
+    color: #8B949E;
+
+    font-size: 18px;
+
+    line-height: 1.6;
+
+}
+
+
+
+
+
+.docs-content section {
+
+    margin-top: 55px;
+
+    scroll-margin-top: 30px;
+
+}
+
+
+
+
+
+.docs-content h2 {
+
+    color: #3B82F6;
+
+    font-size: 30px;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+.docs-content h3 {
+
+    margin-top: 25px;
+
+    margin-bottom: 12px;
+
+    color: #E6EDF3;
+
+}
+
+
+
+
+
+.docs-content p {
+
+    color: #C9D1D9;
+
+    line-height: 1.7;
+
+}
+
+
+
+
+
+
+/* Information Cards */
+
+
+.doc-card {
+
+    background: #161B22;
+
+    border: 1px solid #30363d;
+
+    border-radius: 12px;
+
+    padding: 22px;
+
+    margin: 15px 0;
+
+    transition: 0.2s;
+
+}
+
+
+
+.doc-card:hover {
+
+    border-color: #3B82F6;
+
+    transform: translateY(-2px);
+
+}
+
+
+
+.doc-card h3 {
+
+    color: #3B82F6;
+
+    margin-top:0;
+
+}
+
+
+
+.doc-card p {
+
+    color:#8B949E;
+
+}
+
+
+
+
+
+
+/* Lists */
+
+
+.docs-content ul {
+
+    background:#161B22;
+
+    border:1px solid #30363d;
+
+    border-radius:10px;
+
+    padding:20px 40px;
+
+    margin-top:15px;
+
+}
+
+
+
+.docs-content li {
+
+    margin:12px 0;
+
+    color:#C9D1D9;
+
+}
+
+
+
+
+
+
+/* Code Examples */
+
+
+.code {
+
+
+    background:#0D1117;
+
+    border:1px solid #30363d;
+
+    border-left:4px solid #3B82F6;
+
+
+    padding:20px;
+
+
+    border-radius:8px;
+
+
+    margin:15px 0;
+
+
+    font-family:
+
+    Consolas,
+
+    "Courier New",
+
+    monospace;
+
+
+    color:#E6EDF3;
+
+
+    line-height:1.6;
+
+}
+
+
+
+
+
+.code:hover {
+
+    border-left-color:#22C55E;
+
+}
+
+
+
+
+
+
+
+/* Score Display */
+
+
+.score-box {
+
+
+    background:#161B22;
+
+
+    border:1px solid #30363d;
+
+
+    border-radius:12px;
+
+
+    padding:25px;
+
+
+    margin-top:20px;
+
+
+    font-size:18px;
+
+
+    line-height:2;
+
+
+}
+
+
+
+
+
+.score-box::before {
+
+
+    content:"Analysis Score";
+
+
+    display:block;
+
+
+    color:#3B82F6;
+
+
+    font-size:22px;
+
+
+    font-weight:bold;
+
+
+    margin-bottom:15px;
+
+
+}
+
+
+
+
+
+
+
+
+/* Tables (for future API docs) */
+
+
+.docs-table {
+
+
+    width:100%;
+
+
+    border-collapse:collapse;
+
+
+    margin-top:20px;
+
+
+    background:#161B22;
+
+
+}
+
+
+
+.docs-table th {
+
+
+    text-align:left;
+
+
+    padding:15px;
+
+
+    background:#21262d;
+
+
+    color:#3B82F6;
+
+
+}
+
+
+
+.docs-table td {
+
+
+    padding:15px;
+
+
+    border-top:1px solid #30363d;
+
+
+    color:#C9D1D9;
+
+
+}
+
+
+
+
+
+
+/* Warning Boxes */
+
+
+.warning-box {
+
+
+    background:#2d2408;
+
+
+    border:1px solid #EAB308;
+
+
+    border-radius:10px;
+
+
+    padding:20px;
+
+
+    margin:20px 0;
+
+
+}
+
+
+
+
+
+.error-box {
+
+
+    background:#2d1010;
+
+
+    border:1px solid #EF4444;
+
+
+    border-radius:10px;
+
+
+    padding:20px;
+
+
+    margin:20px 0;
+
+
+}
+
+
+
+
+
+.success-box {
+
+
+    background:#09240f;
+
+
+    border:1px solid #22C55E;
+
+
+    border-radius:10px;
+
+
+    padding:20px;
+
+
+    margin:20px 0;
+
+
+}
+
+
+
+
+
+
+
+
+/* Footer spacing */
+
+
+footer {
+
+    margin-top:60px;
+
+}
+
+
+
+
+
+
+
+/* Mobile */
+
+
+@media(max-width:900px){
+
+
+    .docs-container {
+
+        flex-direction:column;
+
+        width:92%;
+
+    }
+
+
+
+    .sidebar {
+
+        width:100%;
+
+        position:relative;
+
+    }
+
+
+
+    .docs-content h1 {
+
+        font-size:34px;
+
+    }
+
+
+
+    .docs-content h2 {
+
+        font-size:25px;
+
+    }
+
+
+}
