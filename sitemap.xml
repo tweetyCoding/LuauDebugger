@@ -1,8 +1,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
     <url>
         <loc>https://tweetycoding.github.io/LuauDebugger/</loc>
     </url>
+
     <url>
         <loc>https://tweetycoding.github.io/LuauDebugger/documentationArea/documentation.html</loc>
     </url>
+
 </urlset>
