@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Luau Review</title>
+
+<script src="app.js"></script>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<nav>
+
+    <div class="logo">
+        Luau Review
+    </div>
+
+
+    <div>
+        <a href="file:///C:/Users/dying/Documents/Coding%20Projects/DebuggerWebsite/documentationArea/documentation.html">Documentation</a>
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer" >GitHub</a>
+    </div>
+
+</nav>
+
+
+
+
+
+<section class="hero">
+
+    <h1>
+        AI Powered Luau Code Review
+    </h1>
+
+
+    <p>
+        Analyze Roblox scripts for bugs, security problems,
+        performance issues, and bad practices.
+    </p>
+
+</section>
+
+
+
+
+
+<div class="container">
+
+
+<div class="grid">
+
+
+
+
+
+<!-- CODE INPUT -->
+
+<div class="card">
+
+
+<h2>
+Your Code
+</h2>
+
+
+
+<select id="language">
+
+<option>
+Luau
+</option>
+
+</select>
+
+
+
+
+
+<textarea id="code" placeholder="Paste your Luau code here...">
+
+--!strict
+
+local player = game.Players.LocalPlayer
+
+
+wait(1)
+
+
+while true do
+
+    print(player.Name)
+
+end
+
+</textarea>
+
+
+
+
+
+<button onclick="analyze()">
+
+Analyze Code
+
+</button>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+<!-- REPORT -->
+
+<div class="card">
+
+
+<h2>
+Analysis Report
+</h2>
+
+
+
+<div class="score" id="score">
+
+--
+
+</div>
+
+
+
+
+<div class="stat">
+
+<span>
+Performance
+</span>
+
+<span class="good">
+95%
+</span>
+
+</div>
+
+
+
+
+
+<div class="stat">
+
+<span>
+Security
+</span>
+
+<span class="good">
+100%
+</span>
+
+</div>
+
+
+
+
+
+<div class="stat">
+
+<span>
+Maintainability
+</span>
+
+<span>
+85%
+</span>
+
+</div>
+
+
+
+
+
+<div class="stat">
+
+<span>
+Strict Compatibility
+</span>
+
+<span>
+90%
+</span>
+
+</div>
+
+
+
+
+
+
+<h2 style="margin-top:25px">
+
+Issues
+
+</h2>
+
+
+
+<div id="issues">
+
+
+<div class="issue">
+
+Run an analysis to see problems.
+
+</div>
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+<footer>
+
+    Luau Review • Built for Roblox Developers
+
+</footer>
+
+
+
+
+
+<script src="js/app.js"></script>
+
+
+</body>
+
+</html>
